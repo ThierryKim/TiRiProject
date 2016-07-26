@@ -1,0 +1,7 @@
+/.idea/
+!/.idea/codeStyleSettings.xml
+/TiRi Project.iml
+
+# Lignes à supprimer pour le rendu:
+/source/*
+!/source/AbstractAnimal.php
