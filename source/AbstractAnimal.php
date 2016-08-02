@@ -9,11 +9,13 @@ namespace TiRiProject\Animals;
 
 abstract class AbstractAnimal
 {
-    protected function foo() {
+    protected function foo()
+    {
         // Cette méthode foo() ne sert à rien du tout (c'est vrai)
         return true;
     }
 
-    // Il faut commencer ici :
-    // abstract ...
+    abstract public function crier();
+
+
 }
